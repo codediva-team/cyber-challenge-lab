@@ -28,3 +28,22 @@
 
 วิทยากร นายเอกพงษ์ ขัติยะ · กรรมการผู้จัดการ บริษัท โค้ดดีวา จำกัด
 Microsoft Partner · Microsoft AI Cloud Partner Program
+
+---
+
+## English
+
+A hands-on lab: build an AI assistant that screens **Thai** scam messages, with Claude on Microsoft Foundry.
+Online Workshop 2 · Thailand Cyber & Digital Innovation Challenge · Saturday 28 November 2026
+
+1. Click the green **Code** button, then the **Codespaces** tab
+2. Click **Create codespace on main** and wait 2–3 minutes
+3. Open **`lab_scam_triage_claude_foundry_en.ipynb`** (English edition; the Thai edition is `lab_scam_triage_claude_foundry.ipynb`)
+4. Top right: **Select Kernel → Python Environments...** → **Python 3.11** (`/usr/local/bin/python`).
+   Do not pick the highlighted *Create Python Environment*: it lacks the lab's library
+5. Run the cells one by one
+
+Nothing to install, no Python setup, no Azure account of your own. Never commit your team key.
+The sample messages are made up for teaching; every number, link and account in them is fake.
+
+Step-by-step guide: https://training.codediva.co/en/workshops/cyber-challenge (password given in the session)
