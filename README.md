@@ -9,7 +9,10 @@
 
 1. กดปุ่ม **Code** สีเขียวด้านบน แล้วเลือกแท็บ **Codespaces**
 2. กด **Create codespace on main** แล้วรอ 2–3 นาที
-3. เปิดไฟล์ `lab_scam_triage_claude_foundry.ipynb` แล้วทำตามทีละเซลล์
+3. เปิดไฟล์ `lab_scam_triage_claude_foundry.ipynb`
+4. มุมขวาบนกด **Select Kernel → Python Environments...** แล้วเลือก **Python 3.11** (`/usr/local/bin/python`)
+   อย่าเลือก *Create Python Environment* ที่ระบบไฮไลต์ไว้ เพราะไม่มีไลบรารีของแล็บ
+5. ทำตามทีละเซลล์
 
 ไม่ต้องติดตั้งโปรแกรมใดลงเครื่อง ไม่ต้องตั้งค่า Python และไม่ต้องสมัครบัญชี Microsoft Azure เอง
 
