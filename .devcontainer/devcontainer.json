@@ -4,9 +4,13 @@
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python", "ms-toolsai.jupyter"],
-      "settings": { "files.autoSave": "afterDelay" }
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.kernels.excludePythonEnvironments": ["/usr/bin/python3", "/bin/python3"]
+      }
     }
   },
-  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+  "onCreateCommand": "pip install --no-cache-dir -r requirements.txt ipykernel && python -m ipykernel install --user --name python3 --display-name 'Python 3.11 (lab)'",
   "hostRequirements": { "cpus": 2 }
 }
