@@ -11,7 +11,7 @@
 |---|---|
 | `lab_scam_triage_foundry.ipynb` | **แล็บหลัก (ไทย)** ใช้ gpt-5.4-mini และ gpt-5.5 บน Microsoft Foundry ใช้กับ Azure free account ได้ |
 | `lab_scam_triage_foundry_en.ipynb` | แล็บหลัก ฉบับภาษาอังกฤษ |
-| `lab_scam_triage_claude_foundry.ipynb` / `_en.ipynb` | ฉบับ Claude — **ต้องใช้ subscription แบบ pay-as-you-go** (บัญชี Free Trial มีโควตา Claude เป็น 0) |
+| `claude-payg/lab_scam_triage_claude_foundry.ipynb` / `_en.ipynb` | ฉบับ Claude — **ต้องใช้ subscription แบบ pay-as-you-go** (บัญชี Free Trial มีโควตา Claude เป็น 0) |
 
 ## ก่อนวันอบรม (pre-work) — ต้องมี Azure ของตัวเอง
 
@@ -70,7 +70,7 @@ Online Workshop 2 · Thailand Cyber & Digital Innovation Challenge · Saturday 2
 |---|---|
 | `lab_scam_triage_foundry_en.ipynb` | **Main lab, English** — gpt-5.4-mini and gpt-5.5 on Microsoft Foundry; works on an Azure free account |
 | `lab_scam_triage_foundry.ipynb` | Main lab, Thai |
-| `lab_scam_triage_claude_foundry*.ipynb` | Claude edition — **requires a pay-as-you-go subscription** (a Free Trial has a Claude quota of 0) |
+| `claude-payg/lab_scam_triage_claude_foundry*.ipynb` | Claude edition — **requires a pay-as-you-go subscription** (a Free Trial has a Claude quota of 0) |
 
 ### Before the day (pre-work): your own Azure
 
